@@ -1,0 +1,20 @@
+{
+  "name": "habit-plus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^5.2.0",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{json,scss,ts,tsx}'",
+    "pretty-quick": "pretty-quick",
+    "prepare": "husky install"
+  },
+  "author": "",
+  "license": "ISC"
+}
