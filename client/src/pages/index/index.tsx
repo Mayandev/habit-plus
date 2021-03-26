@@ -20,6 +20,7 @@ export default class Index extends Component {
   render() {
     return (
       <View className="index">
+        aaaa
         <CalendarHeatMap />
       </View>
     );
