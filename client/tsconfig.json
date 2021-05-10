@@ -21,7 +21,9 @@
     "resolveJsonModule": true,
     "typeRoots": ["node_modules/@types", "global.d.ts"],
     "paths": {
-      "@/components/*": ["./src/components/*"]
+      "@/components/*": ["./src/components/*"],
+      "@/assets/*": ["./src/assets/*"],
+      "@/common/*": ["./src/common/*"]
     }
   },
   "exclude": ["node_modules", "dist"],

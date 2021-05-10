@@ -1,0 +1,48 @@
+@import '../../styles/theme.scss';
+
+.category-container {
+  padding: 30px;
+
+  .diy-habit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 24px;
+    margin-bottom: 20px;
+
+    .icon {
+      height: 42px;
+      width: 42px;
+    }
+
+    .text {
+      font-size: 36px;
+    }
+  }
+
+  .habits-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    justify-content: space-between;
+
+    .habit-item {
+      font-size: 32px;
+      color: #333333;
+      background-color: #f9f9f9;
+      padding: 10px 45px;
+      border-radius: 24px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .emoji {
+        margin-right: 15px;
+        font-size: 50px;
+      }
+    }
+  }
+}

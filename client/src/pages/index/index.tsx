@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import { View } from '@tarojs/components';
 import './index.scss';
+import 'taro-calendar-heatmap/dist/index.css';
+import Welcome from '@/components/welcome';
+import { View } from '@tarojs/components';
+import Card from '@/components/card';
 export default class Index extends Component {
   componentWillMount() {}
 
@@ -13,6 +16,6 @@ export default class Index extends Component {
   componentDidHide() {}
 
   render() {
-    return <View className="index"></View>;
+    return <Welcome />;
   }
 }

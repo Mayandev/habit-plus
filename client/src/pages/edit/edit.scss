@@ -1,0 +1,44 @@
+.edit-container {
+  padding: 10px 50px;
+
+  .form {
+    margin-top: 50px;
+  }
+
+  .form-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .form-item {
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 30px 20px;
+    margin: 20px 0;
+
+    .icon {
+      width: 42px;
+      height: 42px;
+    }
+
+    input {
+      width: 80%;
+      margin-left: 20px;
+    }
+  }
+
+  .target {
+    width: 60%;
+  }
+
+  .unit {
+    width: 25%;
+
+    .unit-picker {
+      margin-left: 20px;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+$font-title: 36px;
+$weight-title: 700;
+$color-titile: #000000;
+
+@mixin title($font: 36px) {
+  font-size: $font;
+  font-weight: $weight-title;
+  color: $color-titile;
+}

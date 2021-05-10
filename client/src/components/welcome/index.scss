@@ -1,0 +1,42 @@
+.welcome-container {
+  height: 100%;
+  width: 100%;
+
+  @keyframes scalAnimation {
+    from {
+      opacity: 0;
+      transform: scale(0.3);
+    }
+
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .app-info {
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    text-align: center;
+
+    .welcome-emoji {
+      animation-name: scalAnimation;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      font-size: 300px;
+      padding-top: 100px;
+    }
+
+    .app-title {
+      font-size: 72px;
+      font-weight: 700;
+    }
+
+    .app-title-en {
+      font-size: 36px;
+      color: #666;
+    }
+  }
+}
